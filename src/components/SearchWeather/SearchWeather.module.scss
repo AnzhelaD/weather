@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 90vh;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.input {
+  width: 50%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 12px;
+}
+
+.button {
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.weatherInfo {
+  margin-top: 20px;
+  text-align: center;
+}

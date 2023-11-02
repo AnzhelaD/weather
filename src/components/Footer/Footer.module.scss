@@ -1,0 +1,47 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerContent {
+  text-align: center;
+}
+
+.footerContent p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.socialIcons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialIcons a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.iconSeparator {
+  margin: 0 10px;
+}
+
+.socialIcons i {
+  margin-right: 10px;
+}
+
+.socialIcons a:first-child {
+  margin-left: 0;
+}
+
+.socialIcons a:hover {
+  color: #007bff;
+}
