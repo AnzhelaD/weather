@@ -18,7 +18,7 @@ const SearchWeather = () => {
     }, []);
 
     const searchWeather = () => {
-        const apiKey = 'ab77b83f5ad64a70ef23c6140167f59d';
+        const apiKey = '';
         const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
         fetch(apiUrl)
